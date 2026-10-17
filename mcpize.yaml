@@ -1,0 +1,11 @@
+﻿name: pep-screening
+version: 1
+description: "PEP (Politically Exposed Persons) screening for KYC/AML. 16K+ records from WikiData."
+author: JSONexLab
+homepage: https://jsonexlab.com/compliance/
+entry: dist/index.js
+runtime: typescript
+transport: http
+port: 8080
+build:
+  command: npm run build
