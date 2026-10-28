@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Alex-Dev-Web-C-DE/pep-screening-mcp",
+  "title": "PEP Screening",
+  "description": "Politically Exposed Persons screening for AI agents. 19K PEP records.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pep-screening-mcp.boring-saas-infra.workers.dev/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Alex-Dev-Web-C-DE/pep-screening-mcp",
+    "source": "github"
+  }
+}
